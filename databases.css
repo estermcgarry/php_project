@@ -1,0 +1,59 @@
+
+.nav {
+    background-color: darkslategray; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.nav li a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    display: block;
+    padding: 10px
+}
+
+.nav li a:visited{
+    color: white;
+}
+
+.nav li a:hover{
+    color:blueviolet;
+}
+
+
+.table{
+    text-align: center;
+}
+.table, th, td, tr {
+    border: 3px solid;
+    border-color: darkslategray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+
+table a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-weight: bold 
+}
+table a:visited{
+    color: blue;
+}
+
+table a:hover{
+    color: blueviolet;   
+}
